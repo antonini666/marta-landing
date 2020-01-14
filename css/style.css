@@ -14,7 +14,7 @@ a {
 }
 
 .header {
-  background-image: url(../img/background.jpg);
+  background-image: url(../img/background.webp);
   min-height: 793px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -382,6 +382,9 @@ a {
   .login {
     margin-right: 30px;
   }
+  .logo {
+    line-height: 0px;
+  }
 }
 
 @media (max-width: 900px) {
@@ -451,24 +454,27 @@ a {
   .menu__list {
     display: none;
     position: absolute;
-    top: 120px;
     width: 100%;
+    top: 120px;
     left: 0;
     text-align: center;
-    background-color: #1c44a3;
+    background-color: #1a53aa;
     z-index: 5;
   }
+
   .menu__list li + li {
     padding-left: 0;
   }
   .menu__list a {
     display: block;
     padding: 25px 0;
+    opacity: 1;
   }
   .menu__btn {
     width: 30px;
     height: 20px;
     position: relative;
+    cursor: pointer;
   }
   .menu__btn span {
     width: 100%;
